@@ -16,9 +16,18 @@ a{
     font-family: 'Poppins', sans-serif;
 }
 
+.slider{
+    width: 300px;
+}
+
+.dispGrey{
+    color: gray;
+}
+
 .container{
     padding-left: 20px;
     padding-right: 20px;
+    max-width: 240px;
 }
 
 .header{
@@ -44,6 +53,10 @@ a{
     font-size: 12px;
 }
 
+.alenaSlide{
+    width: 250px;
+}
+
 .logo{
     font-size: 25px;
 }
@@ -51,11 +64,13 @@ a{
 .header__title{
     text-align: left;
     font-size: 27px;
-    color: #fff;
+    color: gray;
+    margin-left: 15px;
 }
 
 .slider__item{
     height: 100vh;
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -144,7 +159,7 @@ a{
     width: 100px;
     height: 30px;
     top: -5px;
-    left: -5px;
+    left: 25px;
 }
 
 .about__slider{
@@ -156,7 +171,7 @@ a{
 
 .slick__slider{
     text-align: center;
-    width: 250px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 25px;
