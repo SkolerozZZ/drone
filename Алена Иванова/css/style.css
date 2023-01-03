@@ -1,0 +1,190 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider{
+    width: 300px;
+}
+
+.dispGrey{
+    color: gray;
+}
+
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 240px;
+}
+
+.header{
+    position: absolute;
+    z-index: 10;
+}
+
+.header__nav{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.header__list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    margin-left: 15px;
+}
+
+.hedaer__list-item{
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.alenaSlide{
+    width: 250px;
+}
+
+.logo{
+    font-size: 25px;
+}
+
+.header__title{
+    text-align: left;
+    font-size: 27px;
+    color: gray;
+    margin-left: 15px;
+}
+
+.slider__item{
+    height: 100vh;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.her{
+    height: 1000px;
+}
+
+.cong{
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+
+.cong__title{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cong__text{
+    text-align: center;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.grey{
+    color: #847A7A;
+    font-size: 12px;
+    line-height: 15px
+}
+
+.aboutUS{
+    padding-top: 10px;
+}
+
+.aboutUS__title{
+    font-size: 36px;
+    text-align: center;
+}
+
+.aboutUS__text{
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 15px;
+    padding-bottom: 50px;
+}
+
+.map__title{
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.map__text{
+    text-align: center;
+}
+
+.google{
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    color: black;
+}
+
+.footer__text{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.audio{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: -5px;
+    left: 25px;
+}
+
+.about__slider{
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.slick__slider{
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+
+.slick__slider-text{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.about__footer{
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: -10px;
+    color: grey;
+}
