@@ -1,15 +1,12 @@
 $(function(){
-    $('.slider').slick({
-        arrows: false,
-        fade: true,
-        autoplay: 3000,
-    });
+
 });
 
-$(function(){
-    $('.slick__slider').slick({
-        arrows: false,
-        fade: true,
-        autoplay: 3000,
-    });
-});
+$('.massage__slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    arrows: false,
+  });

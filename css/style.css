@@ -1,190 +1,132 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    background-color: black;
-    color: #fff;
-    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #984CB2;
 }
 
-.red{
-    color: red;
-    font-weight: bold;
-}
-
-a{
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-}
-
-.slider{
-    
-}
-
-.dispGrey{
-    color: gray;
-}
-
-.container{
-    padding-left: 20px;
-    padding-right: 20px;
-    
+.countainer{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header{
-    position: absolute;
-    z-index: 10;
-}
-
-.header__nav{
-    padding-top: 40px;
-    text-align: center;
-}
-
-.header__list{
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    align-items: baseline;
-    margin-left: 15px;
-}
-
-.hedaer__list-item{
-    margin-right: 10px;
-    font-size: 12px;
-}
-
-.alenaSlide{
-    width: 250px;
-}
-
-.logo{
-    font-size: 25px;
+    margin-top: 40px;
 }
 
 .header__title{
-    text-align: left;
-    font-size: 27px;
-    color: gray;
-    margin-left: 15px;
-}
-
-.slider__item{
-    height: 100vh;
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-}
-
-.her{
-    height: 1000px;
-}
-
-.cong{
-    padding-top: 0px;
-    padding-bottom: 25px;
-}
-
-.cong__title{
-    text-align: center;
-    padding-bottom: 15px;
-    font-size: 36px;
+    color: yellow;
     font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
 }
 
-.cong__text{
-    text-align: center;
-    font-weight: 600;
-    line-height: 20px;
-}
-
-.grey{
-    color: #847A7A;
+.header__disc{
+    color: #fff;
+    font-weight: bold;
     font-size: 12px;
-    line-height: 15px
+    margin-top: 25px;
+    margin-left: 40px;
 }
 
-.aboutUS{
-    padding-top: 10px;
+.header__arrow{
+    margin-top: 5px;
+    margin-left: 40px;
 }
 
-.aboutUS__title{
-    font-size: 36px;
-    text-align: center;
+.header__arrow2{
+    margin-left: 40px;
+    margin-top: 5px;
+    transform: rotate(180deg)
+    
 }
 
-.aboutUS__text{
-    padding-top: 10px;
-    font-size: 15px;
-    text-align: center;
-    line-height: 15px;
-    padding-bottom: 50px;
-}
-
-.map__title{
-    text-align: center;
-    font-size: 36px;
-    padding-bottom: 20px;
-}
-
-.map__text{
-    text-align: center;
-}
-
-.google{
-    border-radius: 20px;
+.header__audio{
+    margin-left: 40px;
+    width: 250px;
     margin-top: 10px;
+}
+
+.header__gif{
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.message__title{
+    margin-top: 70px;
     text-align: center;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    color: yellow;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.message__disc{
+    text-align: center;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.slick-active button{
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.slick-dots{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-dots li{
+    list-style: none;
+}
+
+.slick-dots button{
+    font-size: 0;
+    border-radius: 50%;
+    height: 12px;
+    width: 10px;
+    border: none;
+    margin-left: 10px;
+}
+
+.message__slider-item{
+    border-radius: 20px;
+}
+
+.massage__svipe{
+    background-color: yellow;
+    width: 150px;
+    color: #984CB2;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.massage__flower{
+    text-align: center;
+}
+
+.massage__flower-disc{
+    text-align: center;
+    width: 350px;
+    color: #fff;
+}
+
+.massage__flower-gif{
+    max-width: 350px;
 }
 
 .footer{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #fff;
+    background-color: yellow;
+}
+
+.footer__disc{
     color: black;
-}
-
-.footer__text{
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
-    font-size: 13px;
-    font-weight: bold;
-}
-
-.audio{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    top: -5px;
-    left: 25px;
-}
-
-.about__slider{
-    text-align: center;
-    width: 250px;
-    height: 300px;
-    border-radius: 20px;
-}
-
-.slick__slider{
-    text-align: center;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 25px;
-}
-
-.slick__slider-text{
-    padding-top: 10px;
-    font-size: 20px;
-}
-
-.about__footer{
-    text-align: center;
-    padding-bottom: 15px;
-    margin-top: -10px;
-    color: grey;
 }
